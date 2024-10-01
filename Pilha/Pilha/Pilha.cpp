@@ -87,13 +87,8 @@ void push()
 	cin >> novo->valor;
 	novo->prox = NULL;
 
-	if (topo != NULL) {
 		novo->prox = topo;
 		topo = novo;
-	}
-	else {
-		topo = novo;
-	}
 
 }
 
